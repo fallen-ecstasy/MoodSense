@@ -1,0 +1,73 @@
+.DOMContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Heading__title{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.Heading__tagline{
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-style: italic;
+}
+
+@keyframes EntryScreen1 {
+    0% {opacity: 0; transform: scale(0.9);}
+    100% {opacity: 1; transform: scale(1);}
+}
+
+@keyframes EntryScreen2 {
+    0% {opacity: 0;transform: translateX(100%);}
+    100% {opacity:1;transform: translateX(0%);}
+}
+
+@keyframes Wave {
+    0%{transform: rotate(30deg);}
+    25%{transform: rotate(-30deg);}
+    50%{transform: rotate(30deg);}
+    75%{transform: rotate(-30deg);}
+    100%{transform: rotate(30deg);}
+}
+
+.ScreenOne{
+    width: 50%;
+    margin: 5rem 0;
+    animation: EntryScreen1 1s ease-in;
+}
+
+.ScreenTwo{
+    width: 50%;
+    margin: 5rem 0;
+    animation: EntryScreen2 1s ease-in;
+}
+
+.Wave{
+    transform: rotate(30deg);
+    margin: 0 1rem;
+    transform-origin: 20px 30px;
+    animation: Wave 3s ease-in-out 5;
+    width: fit-content;
+}
+
+.Greeting{
+    font-size: 2rem;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+}
+.Describe{
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+.Question{
+    font-size: 1.5rem;
+}
