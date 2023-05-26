@@ -65,6 +65,15 @@ function MoodTracker() {
         setBGColor({...BGColor,color:Colors[Stage1][BGColor.val+1], val:BGColor.val+1});
     }
 
+    const resetClick = () => {
+        setStage1(0);
+        setStage2(0);
+        setStage3(0);
+        setUser({name:" ",age:1});
+        setBGColor({color:'#fff', val:0});
+        setScreen(1);
+    }
+
     const handleNameChange = (e) => setUser({...User,name : e.currentTarget.value});
     const handleAgeChange = (e) => setUser({...User,age : e.currentTarget.value});
 
@@ -115,8 +124,8 @@ function MoodTracker() {
         </div>
         <div className={(Screen === 5)?"ScreenFive":"Disabled"}>
         <div className='OpenLine'>{User.name}! , We want you to...</div>
-        <div className='Result'>Behold your authentic mood: <span style={{color: BGColor.color}} className='Mood'>{Stage3Options[Stage1][Stage2][Stage3]}</span> .</div>
-        <Button colorScheme="green" onClick={()=>setScreen(1)}>Reset The Test</Button>
+        <div className='Result'>Behold your authentic mood: <div style={{color: BGColor.color}} className='Mood'>{Stage3Options[Stage1][Stage2][Stage3]}</div></div>
+        <Button colorScheme="green" onClick={resetClick}>Reset The Test</Button>
         </div>
         </div>
         

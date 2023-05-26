@@ -38,6 +38,8 @@
     100%{transform: rotate(30deg);}
 }
 
+
+
 .Disabled{
     display: none;
 }
@@ -107,4 +109,46 @@
 
 .Question{
     font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 500px){
+    .ScreenOne{
+        width: 90vw;
+    }
+    .ScreenTwo{
+        margin-top: 2rem;
+        width:90vw;
+        font-size: 1rem;
+    }
+    .ScreenThree{
+        margin-top: 2rem;
+        width:90vw;
+        font-size: 1rem;
+    }
+    .ScreenFour{
+        margin-top: 2rem;
+        width:90vw;
+        font-size: 1rem;
+    }
+    .ScreenFive{
+        margin-top: 2rem;
+        width:90vw;
+        font-size: 1rem;
+    }
+    .Question{
+        font-size: 1.1rem;
+    }
+    .OpenLine, .Result{
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin: 0.5rem;
+    }
+    
+    .Mood{
+        font-weight: 700;
+        background-color: #fff;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        margin: 0.5rem 0rem;
+    }
 }
