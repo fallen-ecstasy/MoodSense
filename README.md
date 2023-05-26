@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# MoodSense - Mood Tracker Application
+![Vercel](https://vercelbadge.vercel.app/api/fallen-ecstasy/MoodSense?style=for-the-badge)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MoodSense](MoodSense-logo.png)
 
-## Available Scripts
+MoodSense is a revolutionary mood tracker application that helps you understand and connect with your emotions like never before. It allows you to accurately identify and track your exact mood, providing valuable insights and empowering you to take control of your emotional well-being.
 
-In the project directory, you can run:
+## Key Features
+- **Comprehensive Mood Tracking**: Keep a record of your moods over time and gain valuable insights into patterns and trends.
+- **Detailed Mood Analysis**: Dive deeper into your emotions with detailed analysis of sub-moods and explore the factors that influence your mood changes.
+- **Personalized Recommendations**: Receive personalized suggestions and activities to uplift your mood based on your emotional state.
+- **Interactive Data Visualization**: Visualize your mood data through interactive charts and graphs for a clear understanding of your emotional journey.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Follow these steps to install and run EmoSense on your local machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository: `git clone https://github.com/fallen-ecstasy/MoodSense.git`
+2. Navigate to the project directory: `cd MoodSense`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Access EmoSense in your web browser at: `http://localhost:3000`
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- Chakra UI
+- Facial Emotion Recognition API
+- Chart.js
 
-### `npm run build`
+## Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We welcome contributions from the open source community to enhance EmoSense. To contribute, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/my-feature`
+3. Make your changes and commit them: `git commit -m 'Add my feature'`
+4. Push the changes to your fork: `git push origin feature/my-feature`
+5. Submit a pull request to the main repository.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Please ensure that your code adheres to the project's coding standards and includes appropriate documentation and test coverage.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
