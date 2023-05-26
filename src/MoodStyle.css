@@ -6,6 +6,7 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    transition: background 2s ease-in-out;
 }
 
 .Heading__title{
@@ -24,7 +25,7 @@
     100% {opacity: 1; transform: scale(1);}
 }
 
-@keyframes EntryScreen2 {
+@keyframes EntryScreen {
     0% {opacity: 0;transform: translateX(100%);}
     100% {opacity:1;transform: translateX(0%);}
 }
@@ -37,16 +38,52 @@
     100%{transform: rotate(30deg);}
 }
 
+.Disabled{
+    display: none;
+}
+
 .ScreenOne{
-    width: 50%;
+    width: 50vw;
     margin: 5rem 0;
     animation: EntryScreen1 1s ease-in;
 }
 
 .ScreenTwo{
-    width: 50%;
+    width: 50vw;
     margin: 5rem 0;
-    animation: EntryScreen2 1s ease-in;
+    animation: EntryScreen 1s ease-in;
+}
+
+.ScreenThree{
+    width: 50vw;
+    margin: 5rem 0;
+    animation: EntryScreen 1s ease-in;
+}
+
+.ScreenFour{
+    width: 50vw;
+    margin: 5rem 0;
+    animation: EntryScreen 1s ease-in;
+}
+
+.ScreenFive{
+    width: 50vw;
+    margin: 5rem 0;
+    animation: EntryScreen 1s ease-in;
+}
+
+.OpenLine, .Result{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1rem;
+}
+
+.Mood{
+    font-weight: 700;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
 }
 
 .Wave{
